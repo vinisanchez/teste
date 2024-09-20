@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+/* Estilização da barra de navegação */
+
+/* Estilo padrão da navbar */
+/* Estilo padrão da navbar */
+
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para as seções */
+  section {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    padding: 40px 20px;
+    text-align: center; /* Centraliza o conteúdo das seções */
+  }
+  
+.SEO {
+    padding-top: 50PX;
+}
+
+  /* Estilo para os containers brancos */
+  .container1 {
+    background-color: white;
+    border-radius: 20px 0 0 0;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%; /* Garante que o container ocupe toda a largura disponível */
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+  
+  /* Estilo para os h2 */
+  h2 {
+    font-size: 2em; /* Tamanho maior */
+    border-bottom: 2px solid #007bff; /* Borda azul conforme solicitado */
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px; /* Espaço abaixo do h2 */
+    text-transform: uppercase; /* Transforma texto em maiúsculas */
+  }
+  
+  /* Estilo para os h3 */
+  h3 {
+    font-weight: bold;
+    font-size: 1.2em; /* Tamanho menor que h2 */
+    margin-top: 20px; /* Espaçamento entre h3 e o conteúdo */
+  }
+  
+  /* Estilo para o botão */
+  button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #f8f9fa; /* Cor de fundo do rodapé */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+
+  /* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para as seções */
+  .section {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    padding: 40px 20px;
+    text-align: center; /* Centraliza o conteúdo das seções */
+    opacity: 0; /* Começa invisível */
+    transform: translateY(20px); /* Desce 20px para criar efeito de entrada */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Transições suaves */
+  }
+  
+  /* Estilo para as seções que já foram animadas (visíveis) */
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Estilo para os containers brancos */
+  .container1 {
+    background-color: white;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+  }
+  
+  /* Estilo para os h2 */
+  h2 {
+    font-size: 2em; /* Tamanho maior */
+    border-bottom: 2px solid #007bff; /* Borda azul conforme solicitado */
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px; /* Espaço abaixo do h2 */
+    text-transform: uppercase; /* Transforma texto em maiúsculas */
+  }
+  
+  /* Estilo para os h3 */
+  h3 {
+    font-weight: bold;
+    font-size: 1.2em; /* Tamanho menor que h2 */
+    margin-top: 20px; /* Espaçamento entre h3 e o conteúdo */
+  }
+  
+  /* Estilo para o botão */
+  button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: white;
+
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #f8f9fa; /* Cor de fundo do rodapé */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+.NOVO {
+        margin-bottom: 25px;
+}
+
+
+
+ 

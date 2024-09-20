@@ -1,0 +1,230 @@
+.conteudo {
+    background-image: url();
+    margin-top: 25px;
+    padding-top: 25px;
+}
+
+body {
+    background-image: url(../img/Imagem\ do\ WhatsApp\ de\ 2024-06-21\ à\(s\)\ 21.01.01_59c12271.jpg); /* Substitua pelo caminho correto da sua imagem */
+    background-size: cover; /* Faz a imagem de fundo cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo seja repetida */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela (viewport) */
+    margin: 0; /* Remove as margens padrão do corpo */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão para o texto */
+    color: #333; /* Define a cor do texto */
+}
+
+
+.navbar {
+    background-color: #fff; /* ou outra cor que você prefira */
+    transition: background-color 0.3s;
+}
+
+/* Estilo transparente da navbar */
+.navbar.transparent {
+    background-color: rgba(255, 255, 255, 0.8); /* Ajuste a opacidade conforme necessário */
+}
+
+
+/* Estilo transparente da navbar */
+.navbar.transparent {
+    background-color: rgba(255, 255, 255, 0.8); /* Ajuste a opacidade conforme necessário */
+}
+
+
+.navbar1 {
+    background-color: #f8f9fa;
+}
+
+.toggle {
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #000000; /* Cor de fundo da barra de navegação */
+    position: fixed; /* Torna a navegação fixa */
+    top: 0; /* Fixa no topo da página */
+    width: 100%; /* Largura total */
+    z-index: 9999; /* Alta prioridade para ficar sobre outros elementos */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px; /* Tamanho da logo */
+    margin-right: 10px; /* Espaço entre a logo e o texto */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: #fff !important; /* Cor dos links */
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #000000; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px;
+}
+
+.navbar11 {
+    color: #fff;
+    margin: 0;
+}
+
+  
+  .wrap {
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 0px 3px grey; }
+  
+  .contenedor-formulario {
+    width: 100%;
+    color: #f2f2f2;
+    opacity: 92%;
+    padding: 50px; }
+    .contenedor-formulario .formulario {
+      width: 100%;
+      margin: auto; }
+      .contenedor-formulario .formulario .input-group {
+        position: relative;
+        margin-bottom: 32px; }
+        .contenedor-formulario .formulario .input-group input[type="text"],
+        .contenedor-formulario .formulario .input-group input[type="email"],
+        .contenedor-formulario .formulario .input-group input[type="password"] {
+          font-family: "Roboto";
+          font-size: 16px;
+          color: #000000;
+          width: 100%;
+          outline: none;
+          padding: 15px;
+          background: none;
+          border: none;
+          border-bottom: 2px solid #000000; }
+          .contenedor-formulario .formulario .input-group input[type="text"]:focus, .contenedor-formulario .formulario .input-group input[type="text"]:active,
+          .contenedor-formulario .formulario .input-group input[type="email"]:focus,
+          .contenedor-formulario .formulario .input-group input[type="email"]:active,
+          .contenedor-formulario .formulario .input-group input[type="password"]:focus,
+          .contenedor-formulario .formulario .input-group input[type="password"]:active {
+            outline: none;
+            border-bottom: 2px solid #000000; }
+          .contenedor-formulario .formulario .input-group input[type="text"].error,
+          .contenedor-formulario .formulario .input-group input[type="email"].error,
+          .contenedor-formulario .formulario .input-group input[type="password"].error {
+            border-bottom: 2px solid #D32F2F; }
+            .contenedor-formulario .formulario .input-group input[type="text"].error + label,
+            .contenedor-formulario .formulario .input-group input[type="email"].error + label,
+            .contenedor-formulario .formulario .input-group input[type="password"].error + label {
+              color: #D32F2F; }
+        .contenedor-formulario .formulario .input-group label {
+          color: #000000; }
+          .contenedor-formulario .formulario .input-group label.label {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            margin-left: 15px;
+            font-size: 16px;
+            line-height: 16px;
+            position: absolute;
+            top: 16px;
+            left: 0; }
+            .contenedor-formulario .formulario .input-group label.label.active {
+              top: -12px;
+              font-size: 12px;
+              line-height: 12px;
+              color: #000000; }
+        .contenedor-formulario .formulario .input-group.checkbox label, .contenedor-formulario .formulario .input-group.radio label {
+          display: inline-block;
+          cursor: pointer;
+          color: #000000;
+          position: relative;
+          padding: 5px 15px 5px 51px;
+          font-size: 1em;
+          border-radius: 3px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .contenedor-formulario .formulario .input-group.checkbox label:hover, .contenedor-formulario .formulario .input-group.radio label:hover {
+            background: #000000; }
+          .contenedor-formulario .formulario .input-group.checkbox label:before, .contenedor-formulario .formulario .input-group.radio label:before {
+            content: "";
+            display: inline-block;
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            left: 15px;
+            border-radius: 50%;
+            background: none;
+            border: 2px solid #000000; }
+        .contenedor-formulario .formulario .input-group.error label {
+          color: #D32F2F; }
+          .contenedor-formulario .formulario .input-group.error label:hover {
+            background: rgba(211, 47, 47, 0.2); }
+          .contenedor-formulario .formulario .input-group.error label:before {
+            border: 2px solid #D32F2F; }
+        .contenedor-formulario .formulario .input-group.radio input[type="radio"] {
+          display: none; }
+          .contenedor-formulario .formulario .input-group.radio input[type="radio"]:checked + label:before {
+            display: none; }
+          .contenedor-formulario .formulario .input-group.radio input[type="radio"]:checked + label {
+            padding: 5px 15px;
+            background: #000000;
+            border-radius: 2px;
+            color: #f2f2f2; }
+        .contenedor-formulario .formulario .input-group.checkbox label:before {
+          border-radius: 3px; }
+        .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"] {
+          display: none; }
+          .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label:before {
+            display: none; }
+          .contenedor-formulario .formulario .input-group.checkbox input[type="checkbox"]:checked + label {
+            background: #000000;
+            color: #f2f2f2;
+            padding: 5px 15px; }
+      .contenedor-formulario .formulario input[type="submit"] {
+        background: #000000;
+        border-radius: 1px;
+        border: 2px solid #f2f2f2;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Roboto";
+        font-size: 16px;
+        padding: 15px;
+        width: 100%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .contenedor-formulario .formulario input[type="submit"]:hover {
+          background: #000000; }
+  
+  /*# sourceMappingURL=estilos.css.map */
+  
+  @media (max-width: 767px) {
+    .sectionup .titulo {
+        font-size: 2rem; /* Tamanho da fonte reduzido */
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+    
+
+    .navbar11 {
+        font-size: 15px;
+    }
+  }

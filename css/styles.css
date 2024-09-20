@@ -1,0 +1,665 @@
+
+.teste {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.teste.visivel {
+    opacity: 1;
+}
+
+#botao:hover {
+    background-color: #000;
+    color: #f5f5f5;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+.paragrafo-container {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 2px solid transparent; /* Borda inicial transparente */
+}
+
+.paragrafo {
+    max-height: 0; /* Começa escondido */
+    overflow: hidden;
+    transition: max-height 0.5s ease; /* Transição suave para altura máxima */
+}
+
+.paragrafo.visivel {
+    max-height: 200px; /* Altura máxima quando expandido */
+}
+
+.borda-animada {
+    position: absolute;
+    bottom: -2px; /* Posicionamento abaixo do parágrafo */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Altura da borda */
+    background-color: #3498db; /* Cor da borda */
+    animation: animacao-borda 2s infinite; /* Animação infinita */
+    opacity: 0; /* Começa invisível */
+}
+
+.paragrafo-container:not(.visivel) .borda-animada {
+    opacity: 1; /* Mostra a borda quando o parágrafo está recolhido */
+}
+
+@keyframes animacao-borda {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+
+
+
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f5f5f5; /* Cor de fundo */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+/* Estilização da barra de navegação */
+
+/* Estilo padrão da navbar */
+/* Estilo padrão da navbar */
+.navbar {
+    background-color: #fff; /* ou outra cor que você prefira */
+    transition: background-color 0.3s;
+}
+
+/* Estilo transparente da navbar */
+.navbar.transparent {
+    background-color: rgba(255, 255, 255, 0.8); /* Ajuste a opacidade conforme necessário */
+}
+
+
+/* Estilo transparente da navbar */
+.navbar.transparent {
+    background-color: rgba(255, 255, 255, 0.8); /* Ajuste a opacidade conforme necessário */
+}
+
+
+
+
+.esse {
+    display: flex;
+}
+
+.navbar1 {
+    background-color: #f8f9fa;
+}
+
+.toggle {
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    background-color: #000000; /* Cor de fundo da barra de navegação */
+    position: fixed; /* Torna a navegação fixa */
+    top: 0; /* Fixa no topo da página */
+    width: 100%; /* Largura total */
+    z-index: 9999; /* Alta prioridade para ficar sobre outros elementos */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 50px; /* Tamanho da logo */
+    margin-right: 10px; /* Espaço entre a logo e o texto */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: #fff !important; /* Cor dos links */
+    padding: 10px;
+}
+
+.nav-link:hover {
+    background-color: #000000; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px;
+}
+
+.navbar11 {
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+}
+
+/* Estilos da seção principal */
+.sectionup {
+    background-color: #000000; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 3rem 0; /* Espaçamento interno */
+}
+
+.titulo {
+    font-size: 3.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-top: 25px;
+    color: none;
+}
+
+.botao {
+    background-color: #fff; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    margin-top: 1rem; /* Margem superior */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.subtitle {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    margin-top: 1rem; /* Margem superior */
+    text-align: right;
+}
+
+/* Estilos da segunda seção */
+.sectionup2 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+}
+
+.texto2 {
+    font-size: 1rem; /* Tamanho da fonte */
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o texto */
+    font-size: 25px;
+}
+
+/* Estilos da seção de informações adicionais */
+.section2 {
+    background-color: #0b0b0b; /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+    color: #f5f5f5; /* Tamanho da fonte */
+}
+
+.oquesuaempresa {
+    border-left: 2px solid white;
+    height: 230px;
+    font-size: 25px;
+
+}
+
+#oquesuaempresa {
+    font-size: 60px;
+}
+
+.direita {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 1rem; /* Margem inferior */
+}
+
+.h01, .h02, .h03, .h04, .h05{
+    margin-bottom: 1.5rem; /* Margem inferior */
+    border-bottom: 2px solid white;
+}
+
+/* Estilo padrão para h2 e p */
+.h2-custom {
+    font-size: 24px; /* Tamanho padrão do título h2 */
+    transition: font-size 0.3s ease; /* Transição suave para o efeito */
+  }
+  
+  .p-custom {
+    font-size: 16px; /* Tamanho padrão do parágrafo p */
+    transition: font-size 0.3s ease; /* Transição suave para o efeito */
+  }
+  
+  /* Estilo aumentado quando o mouse passa por cima */
+  .hoverable:hover .h2-custom {
+    font-size: 40px; /* Tamanho aumentado para h2 */
+  }
+  
+  .hoverable:hover .p-custom {
+    font-size: 25px; /* Tamanho aumentado para p */
+  }
+  
+
+#suporte:hover {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.section2 h2 {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+}
+
+.section2 p {
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+#oque {
+    font-size: 60px;
+}
+
+/* Estilos da seção "O que fazemos" */
+.oquefazemos {
+    background-color: #f8f8f8; /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+}
+
+.titulo3 {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    text-align: left;
+    border-top: 2px solid black;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+#titulo4  {
+    border-left: 2px solid black;
+    padding: 5px;
+}
+
+.img {
+    max-width: 100%; /* Largura máxima */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-top: 1rem; /* Margem superior */
+}
+
+.titulo5, .titulo6, .titulo7 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-top: 1rem; /* Margem superior */
+}
+
+.nesse {
+    font-weight: 900;
+    padding: 2px;
+    padding-left: 5px;
+    
+}
+
+.nesse:hover {
+    color: turquoise;
+}
+
+.oquefazemos p {
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+
+
+.saiba {
+    background-color: #000000; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    margin-top: 1rem; /* Margem superior */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.saiba:hover {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+/* Estilos da seção de diferencial */
+.diferencialtodo {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(255,255,255,1) 100%); /* Cor de fundo */
+    padding: 2rem 0; /* Espaçamento interno */
+}
+
+.titulo8 {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 1rem; /* Margem inferior */
+    border-top: 2px solid black;
+}
+.diferencial {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.paragrafo {
+    font-size: 1rem; /* Tamanho da fonte */
+    max-width: 800px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza o texto */
+    margin-bottom: 2rem; /* Margem inferior */
+}
+
+
+.card {
+    background-color: #ffffff; /* Cor de fundo do cartão */
+    color: #fff; /* Cor do texto do cartão */
+    border: none; /* Sem borda */
+    margin-left: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card p {
+    font-size: 1rem; /* Tamanho da fonte */
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+#cards {
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-style: none;
+}
+
+.cards {
+    padding: 1rem; /* Espaçamento interno */
+    background-color: #f5f5f5;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+#querocontratar {
+    background: none; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: 1px solid white; /* Sem borda */
+    padding: 0.5rem 1rem; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-top: 2rem; /* Margem superior */
+}
+
+#querocontratar:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s;
+}
+
+.img2 {
+    border-radius: 10px; /* Bordas arredondadas */
+    max-height: 250px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f5f5f5; /* Cor de fundo */
+    color: #555; /* Cor do texto */
+    padding: 1rem 0; /* Espaçamento interno */
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 767px) {
+    .sectionup .titulo {
+        font-size: 2rem; /* Tamanho da fonte reduzido */
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+    
+
+    .navbar11 {
+        font-size: 15px;
+    }
+
+    #oquesuaempresa {
+        border: none;
+        height: 100px;
+    }
+
+    .titulo3 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .diferencial {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .olha {
+              margin-right: 30px;
+    }
+
+    .teste {
+        text-align: center;
+        display: block;
+
+    }
+
+    .saiba {
+        font-size: 20px ;
+        height: 40px;
+    }
+
+    #oquesuaempresa {
+        font-size: 20px;
+    }
+
+    #oque {
+        font-size: 30px;
+    }
+
+    .oquefazemos{
+        text-align: center;
+        align-items: center;
+    }
+
+    .botao, .saiba, #querocontratar {
+        font-size: 0.875rem; /* Tamanho da fonte reduzido */
+        padding: 0.5rem; /* Espaçamento interno reduzido */
+    }
+
+    #botao:hover {
+        background-color: #000;
+        color: #f5f5f5;
+        transition: 0.5s;
+    }
+
+    .container {
+
+        justify-content: center;
+
+    }
+
+    .titulo3, .titulo4, .titulo5, .titulo6, .titulo7, .titulo8 {
+        font-size: 1.5rem; /* Tamanho da fonte reduzido */
+    }
+}
+
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.titulo, .subtitle, .texto2 {
+    opacity: 0;
+}
+
+.animacao-slide {
+    animation: slide-in 1s forwards;
+}
+
+.animacao-fade {
+    animation: fade-in 1s forwards;
+}
+
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animacao-slide {
+    animation: slide-in 1s forwards;
+}
+
+.animacao-fade {
+    animation: fade-in 1s forwards;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animacao-slide {
+    animation: slide-in 1s forwards;
+}
+
+.animacao-fade {
+    animation: fade-in 1s forwards;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.paragrafo {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.paragrafo.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+
+    
+    .esse {
+        text-align: center;
+    }
+    
+    .paragrafo {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.paragrafo {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.paragrafo.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+
+    
+    .esse {
+        text-align: center;
+    }
+    
+    .paragrafo {
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+
